@@ -1,0 +1,11 @@
+carros= int(input("carros vendidos:"))
+salario= int(input("seu salario:"))
+comissao= carros*700
+print("carros vendidos x 700=",comissao)
+vendas=carros*(5/100)
+print("5% de suas vendas=",vendas)
+salarioFinal= salario+comissao+vendas
+print("carros vendidos=",carros)
+print("seu salario por mes:",salario)
+print("salario total:",salarioFinal)
+print("por carro vendido ganha:700")
