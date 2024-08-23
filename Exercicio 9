@@ -1,0 +1,5 @@
+Salario= int(input("qual o seu salario?:"))
+porcentagem= int(input("quantos %:"))
+aumento= Salario*(porcentagem/100)
+novoSalario= Salario+aumento
+print("salario reajustado:",novoSalario)
