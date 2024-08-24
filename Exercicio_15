@@ -1,0 +1,5 @@
+Casa1= int(input())
+if Casa1 >=0:
+  print("ele é positivo")
+else:
+    print("ele é negativo")
