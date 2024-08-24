@@ -1,0 +1,6 @@
+custoFabrica= int(input("custo de fabrica:"))
+distribuidor= int(28)
+impostos= int(45)
+reajuste= custoFabrica*(distribuidor/100)+(impostos/100)
+consumidor= custoFabrica+reajuste
+print("preço final do carro:",consumidor)
