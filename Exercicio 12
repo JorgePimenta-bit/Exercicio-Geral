@@ -1,0 +1,7 @@
+C=int(input())
+celsius= C*9
+feria= 5*32
+Fahr= celsius+feria
+fahr2= Fahr/5
+Temperatura= fahr2
+print("temperatura em F°=",Temperatura)
