@@ -1,0 +1,7 @@
+NomeAluno= input("nome do aluno:")
+nota1= int(input("nota do aluno:"))
+nota2= int(input("segunda nota do aluno:"))
+nota3= int(input("terceira nota do aluno:"))
+notaFinal= nota1*2+nota2*3+nota3*5
+media_final= notaFinal/10
+print("media do aluno:",media_final)
