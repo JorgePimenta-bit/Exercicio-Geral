@@ -1,6 +1,8 @@
-Valor_A= int(input())
-Valor_B= int(input())
+Valor_A= int(input("insira um valor:"))
+Valor_B= int(input("insira um valor:"))
 if Valor_A>Valor_B:
   print("Valor_A é maior que Valor_B")
-else set():
-  print("Valor_B é maior que Valor_A")
+if Valor_A==Valor_B:
+    print("valor é igual,tente outro")
+else:
+    print("Valor_B é maior que Valor_A")
