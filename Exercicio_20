@@ -1,0 +1,8 @@
+#20) Ler dois valores (considere que não serão lidos valores iguais) e escrevê-los em ordem crescente.
+ValorA=int(input("ponha um valor:"))
+ValorB=int(input("ponha outro valor:"))
+Valores= [ValorA,ValorB]
+if ValorA==ValorB:
+    print("valor igual, tente outro")
+else:
+    print(sorted(Valores))
