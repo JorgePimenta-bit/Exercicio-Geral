@@ -1,0 +1,10 @@
+#21) Ler a hora de início e a hora de fim de um jogo de Xadrez (considere apenas horas inteiras, sem os minutos) e calcule a duração do jogo em horas, sabendo-se que o tempo máximo de duração do jogo é de 24 horas e que o jogo pode iniciar em um dia             e terminar no dia seguinte. 
+dia=(input("o jogo durou até o outro dia?:"))
+Inicio=int(input("horario de inicio do jogo:"))
+Duraçao_total= 24
+Fim_De_Jogo=int(input("quando termina o jogo?:"))
+if dia=='sim':
+    print("tempo de jogo:",(Fim_De_Jogo+24)-Inicio,"horas")
+else:
+    print("tempo de jogo:",Fim_De_Jogo-Inicio,"horas")
+
