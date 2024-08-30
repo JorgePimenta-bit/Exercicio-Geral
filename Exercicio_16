@@ -1,0 +1,5 @@
+compra= int(input())
+if compra >=12:
+  print("o seu pagamento total:",compra*1)
+else:
+    print("o seu pagamento total:",compra*1.3)
