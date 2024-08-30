@@ -1,0 +1,8 @@
+Aluno=input("qual o nome do aluno?:")
+nota_1=int(input("primeira nota:"))
+nota_2=int(input("segunda nota:"))
+media= (nota_1+nota_2)/2
+if media >=6:
+    print("aluno esta aprovado com:",media)
+else:
+    print("aluno esta reprovado com:",media)
