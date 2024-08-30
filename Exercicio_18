@@ -1,0 +1,6 @@
+nascimento=int(input("ano de seu nascimento:"))
+calculo= 2024-nascimento
+if calculo >=18:
+    print("pode votar")
+else:
+    print("nao pode votar")
