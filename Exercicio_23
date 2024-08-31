@@ -1,0 +1,8 @@
+#23) Para o enunciado a seguir foi elaborado um algoritmo em Português Estruturado que contém erros, identifique os erros no algoritmo apresentado abaixo: Enunciado: Tendo como dados de entrada o nome, a altura e o sexo (M ou F) de uma pessoa, calcule e mostre seu peso ideal, utilizando as seguintes fórmulas:
+Nome= input("qual seu nome?:")
+Sexo= input("qual seu sexo?, responda com H ou M:")
+Altura= float(input("sua altura?:"))
+if Sexo=='M':
+    print("seu peso ideal é:",(72.7*Altura)-58)
+else:
+    print("seu peso ideal é:",(62.1 * Altura)-44.7)
