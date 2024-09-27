@@ -1,0 +1,10 @@
+#28) Ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles.
+
+A= int(input("ponha um valor:"))
+B= int(input("ponha um valor:"))
+C= int(input("ponha um valor:"))
+
+if A==B==C:
+ print("nao lemos valores iguais")
+else:
+    print("o maior valor é:",max(A,B,C))
