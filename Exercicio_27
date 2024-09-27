@@ -1,0 +1,9 @@
+#27) Ler um valor e escrever se é positivo, negativo ou zero.
+Valor= int(input("ponha um valor:"))
+if Valor >0:
+  print("é positivo")
+else:
+    if Valor ==0:
+        print("é zero")
+    else:
+     print("é negativo")
