@@ -1,0 +1,8 @@
+#30) Ler 3 valores (considere que não serão informados valores iguais) e escrevê-los em ordem crescente.
+
+Valores=[int(input("ponha um valor:")),int(input("ponha segundo valor:")),int(input("ponha o terceiro:"))]
+
+Valores.sort()
+print("em forma crescente:",Valores)
+
+         
