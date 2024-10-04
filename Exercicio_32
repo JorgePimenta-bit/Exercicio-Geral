@@ -1,0 +1,12 @@
+#32) Ler o nome de 2 times e o número de gols marcados na partida (para cada time). Escrever o nome do vencedor. Caso não haja vencedor deverá ser impressa a palavra EMPATE.
+
+TimeCasa= str(input("qual o nome do time da casa?:"))
+GolsCasa= int(input("quantos gols fez:"))
+TimeVisitante = str(input("o nome do time visitante?:"))
+GolsVisitante = int(input("gols do time visitante:"))
+if GolsCasa > GolsVisitante:
+    print("o time",TimeCasa,"ganhou")
+elif GolsCasa == GolsVisitante:
+    print("a partida EMPATOU")
+else:
+    print("o time",TimeVisitante,"ganhou")
