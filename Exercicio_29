@@ -1,0 +1,8 @@
+#29) Ler 3 valores (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores.
+
+Valores=[int(input("ponha um valor:")),int(input("ponha segundo valor:")),int(input("ponha o terceiro:"))]
+
+Valores.sort(reverse=True)
+Soma_Valores= Valores[0]+Valores[1]
+print("Soma dos valores",Soma_Valores)
+         
