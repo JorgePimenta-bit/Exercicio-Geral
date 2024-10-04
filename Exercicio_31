@@ -1,0 +1,20 @@
+#31) Ler 3 valores (A, B e C) representando as medidas dos lados de um triângulo e escrever se formam ou não um triângulo. OBS: para formar um triângulo, o valor de cada lado deve ser menor que a soma dos outros 2 lados.
+
+Valor1= float(input("ponha um valor:"))
+Valor2= float(input("ponha um valor:"))
+Valor3= float(input("ponha um valor:"))
+if Valor1 > Valor2+Valor3:
+    print("isso é um triangulo0")
+elif Valor2 > Valor1+Valor3:
+    print("isso é um triangulo1")
+elif Valor3 > Valor1+Valor2:
+    print("isso é um triangulo2")
+elif Valor1 < Valor2+Valor3:
+    print("isso nao é um triangulo3")
+elif Valor2 < Valor1+Valor3:
+    print("isso nao é um triangulo4")
+elif Valor3 < Valor1+Valor2:
+    print("isso nao é um triangulo5")
+
+    
+   
